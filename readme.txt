@@ -9,7 +9,7 @@ Using Scala 2.10.4 Java HotSpot(TM) 64-Bit Server VM Java 1.8.0_51
 Type "help" for more information.
 
 
-scDebugger>
+scDebugger>help
 =========================================
 Usage:
 1. allApplicationIds
