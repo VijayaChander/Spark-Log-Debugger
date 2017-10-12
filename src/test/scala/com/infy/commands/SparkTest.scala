@@ -1,10 +1,8 @@
-package com.infy.commands
+package com.sparkdebugger.commands
 
 import org.scalatest._
-import com.infy.util.Terminal
-import com.sparkdebugger.commands.AllApplicationIds;
-import com.sparkdebugger.commands.Help;
-import com.sparkdebugger.commands.SetApplicationId;
+
+import com.sparkdebugger.util.Terminal
 
 class SparkTest extends FunSuite with Matchers {
   test("terminal prompt"){
