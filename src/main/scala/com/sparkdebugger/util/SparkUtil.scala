@@ -25,6 +25,7 @@ class SparkUtil private(val configPath : Option[String]){
       
 		}
 	  sparkConf.setAppName(SparkConstants.APP_NAME)
+	  sparkConf.setMaster("local")
 		new SparkContext(sparkConf)
 
 }
