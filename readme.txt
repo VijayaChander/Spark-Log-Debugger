@@ -48,8 +48,8 @@ scDebugger>hosts
 |Executor ID|Host                        |Executor Info.Log Urls                                                                                                                                                                                                                                                   |
 +-----------+----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 |driver     |10.123.234.150              |null                                                                                                                                                                                                                                                                     |
-|1          |bbsr02cloud05.ad.cluster.com|[http://bbsr02cloud05.ad.cluster.com:8042/node/containerlogs/container_1493795227502_5174_01_000002/kathijabanu.m/stderr?start=-4096,http://bbsr02cloud05.ad.infosys.com:8042/node/containerlogs/container_1493795227502_5174_01_000002/kathijabanu.m/stdout?start=-4096]|
-|2          |bbsr02cloud04.ad.cluster.com|[http://bbsr02cloud04.ad.cluster.com:8042/node/containerlogs/container_1493795227502_5174_01_000003/kathijabanu.m/stderr?start=-4096,http://bbsr02cloud04.ad.infosys.com:8042/node/containerlogs/container_1493795227502_5174_01_000003/kathijabanu.m/stdout?start=-4096]|
+|1          |bbsr02cloud05.ad.cluster.com|[http://bbsr02cloud05.ad.cluster.com:8042/node/containerlogs/container_1493795227502_5174_01_000002/abc/stderr?start=-4096,http://bbsr02cloud05.ad.infosys.com:8042/node/containerlogs/container_1493795227502_5174_01_000002/abc/stdout?start=-4096]|
+|2          |bbsr02cloud04.ad.cluster.com|[http://bbsr02cloud04.ad.cluster.com:8042/node/containerlogs/container_1493795227502_5174_01_000003/abc/stderr?start=-4096,http://bbsr02cloud04.ad.infosys.com:8042/node/containerlogs/container_1493795227502_5174_01_000003/abc/stdout?start=-4096]|
 +-----------+----------------------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 scDebugger>search Job Result
@@ -118,7 +118,7 @@ Enter an option listed above to view specified metrics : 1
 +------------+------------------------------+-------------+-------------------+-------------------+-------------+
 |App Name    |App ID                        |User         |Submission Time    |Completion Time    |Duration(min)|
 +------------+------------------------------+-------------+-------------------+-------------------+-------------+
-|sparkProject|application_1493795227502_5174|kathijabanu.m|2017-09-13 13:24:36|2017-09-13 13:29:05|4.49         |
+|sparkProject|application_1493795227502_5174|abc          |2017-09-13 13:24:36|2017-09-13 13:29:05|4.49         |
 +------------+------------------------------+-------------+-------------------+-------------------+-------------+
 
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
