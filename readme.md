@@ -187,7 +187,7 @@ Stage IDs : 0,1,2
 
 Enter an option or type "q" to quit stage metrics :2
 
-====================================== Metrics for Stage ID: 2 =====================================
+==========Metrics for Stage ID: 2============
 
 Stage ID                  : 2
 
@@ -222,7 +222,7 @@ Total Records Read        : null
 Executor Run Time         : 11
 
 
-======================================================================================================
+=======================================================
 
 Enter any stage ID listed below to view specific stage metrics or enter "ALL" to view all the stages :
 
@@ -230,7 +230,7 @@ Stage IDs : 0,1,2
 
 Enter an option or type "q" to quit stage metrics :ALL
 
-======================================== Metrics for all Stages ======================================
+=========== Metrics for all Stages ===========
 
 Stage ID                  : 0
 
@@ -263,6 +263,7 @@ Executor Deserialize Time : 4078
 Total Records Read        : null
 
 Executor Run Time         : 1016486
+
 
 
 
@@ -299,6 +300,7 @@ Total Records Read        : 78
 Executor Run Time         : 71
 
 
+
 Stage ID                  : 2
 
 Stage Name                : show at SparkHive.scala:28
@@ -332,7 +334,7 @@ Total Records Read        : null
 Executor Run Time         : 11
 
 
-=====================================================================================================
+==================================================
 
 Enter any stage ID listed below to view specific stage metrics or enter "ALL" to view all the stages :
 
@@ -340,9 +342,9 @@ Stage IDs : 0,1,2
 
 Enter an option or type "q" to quit stage metrics :q
 
-=================== Ending Stage Metrics ===================
+========Ending Stage Metrics==========
 
-============== Job Metrics ==============
+==========Job Metrics ==========
 
 Usage:
 
@@ -352,7 +354,7 @@ Usage:
 4. Task
 5. Exit
 
-=========================================
+=================================
 
 Enter an option listed above to view specified metrics : 4
 
@@ -449,6 +451,7 @@ Task ID|Records Read
 10     |1167340     
 
 Select a task metric listed below to view specific metrics or enter "ALL" to view all the task metrics :
+
 1. Executor ID
 2. Host
 3. Attempt
@@ -479,19 +482,26 @@ Select a task metric listed below to view specific metrics or enter "ALL" to vie
 28. Task Status
 
 Enter an option or type "q" to quit task metrics :q
-=================== Ending Task Metrics ===================
-============== Job Metrics ==============
+
+=========Ending Task Metrics============
+
+=======Job Metrics========
 Usage:
 1. Application
 2. Job
 3. Stage
 4. Task
 5. Exit
-=========================================
+===============================
+
 Enter an option listed above to view specified metrics : 5
-=================== Ending Job Metrics ===================
+
+========Ending Job Metrics=========
+
 scDebugger>help
-=========================================
+
+===========================
+
 Usage:
 1. allApplicationIds
 2. setApplicationId
@@ -504,6 +514,9 @@ Usage:
          6. jobMetrics             
 3. memoryUsed
 4. exit
-=========================================
+
+=============================
+
 scDebugger>exit
-=================== Ending session ===================
+
+=========Ending session ===========
