@@ -107,7 +107,7 @@ Usage:
 4. Task
 5. Exit
 
-======================================
+====================================
 
 Enter an option listed above to view specified metrics : 1
 
@@ -124,7 +124,7 @@ Usage:
 4. Task
 5. Exit
 
-=====================================
+====================================
 
 Enter an option listed above to view specified metrics : q
 
@@ -267,8 +267,7 @@ Total Records Read        : null
 
 Executor Run Time         : 1016486
 
-======================================================
-
+=======================================
 
 Stage ID                  : 1
 
@@ -302,7 +301,7 @@ Total Records Read        : 78
 
 Executor Run Time         : 71
 
-======================================================
+=======================================
 
 Stage ID                  : 2
 
@@ -349,6 +348,7 @@ Enter an option or type "q" to quit stage metrics :q
 =================== Ending Stage Metrics ===================
 
 ============== Job Metrics ==============
+
 Usage:
 
 1. Application
@@ -357,7 +357,7 @@ Usage:
 4. Task
 5. Exit
 
-=====================================
+====================================
 
 Enter an option listed above to view specified metrics : 4
 
@@ -499,7 +499,7 @@ Usage:
 4. Task
 5. Exit
 
-=====================================
+====================================
 
 Enter an option listed above to view specified metrics : 5
 
