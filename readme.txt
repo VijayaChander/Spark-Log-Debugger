@@ -25,7 +25,6 @@ Usage:
 =========================================
 scDebugger>allApplicationIds
 Recent Spark Applications:
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 +---+------------------------------+---------------------------------------------+-------------------+
 |SNo|ApplicationID                 |Application Name                             |Date&Time          |
 +---+------------------------------+---------------------------------------------+-------------------+
@@ -43,7 +42,6 @@ Recent Spark Applications:
 scDebugger>setapplicationid application_1493795227502_5174
 Application Id set to :application_1493795227502_5174
 scDebugger>hosts
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 +-----------+----------------------------+----------------------------------------------------------------------+
 |Executor ID|Host                        |Executor Info.Log Urls                                                |
 +-----------+----------------------------+----------------------------------------------------------------------+
@@ -51,25 +49,18 @@ scDebugger>hosts
 |1          |bbsr02cloud05.ad.cluster.com|[http://bbsr02cloud05.ad.cluster.com:8042/node/abc/stdout?start=-4096]|
 |2          |bbsr02cloud04.ad.cluster.com|[http://bbsr02cloud04.ad.cluster.com:8042/nodeabc/stderr?start=-4096] |
 +-----------+----------------------------+----------------------------------------------------------------------+
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 scDebugger>search Job Result
 Search Result for Job Result
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 {"Event":"SparkListenerJobEnd","Job ID":0,"Completion Time":1505289545647,"Job Result":{"Result":"JobSucceeded"}}
 {"Event":"SparkListenerJobEnd","Job ID":1,"Completion Time":1505289545763,"Job Result":{"Result":"JobSucceeded"}}
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 scDebugger>disk-memory-usage
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 +-----------+------------------+---------------+----------------+
 |Executor ID|Maximum Memory(MB)|Memory Used(MB)|Disk Spilled(MB)|
 +-----------+------------------+---------------+----------------+
 |1          |2120.0            |1968.0         |2670.0          |
 |2          |2120.0            |2097.0         |2387.0          |
 +-----------+------------------+---------------+----------------+
-
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 scDebugger>executors-hosts-partitions
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 +---+-----------+----------------------------+---------+--------------+
 |SNo|Executor Id|Host                        |Stage Id |Partition Id  |
 +---+-----------+----------------------------+---------+--------------+
@@ -84,10 +75,7 @@ scDebugger>executors-hosts-partitions
 |9  |Executor(1)|bbsr02cloud05.ad.cluster.com|Stages :0|Partition: :25|
 |10 |Executor(2)|bbsr02cloud04.ad.cluster.com|Stages :0|Partition: :26|
 +---+-----------+----------------------------+---------+--------------+
-
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 scDebugger>memoryUsed
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 +---+------------------------------+---------------------+-----------------------+-----------------+------------------------+
 |SNo|App Id                        |Resources            |Used Resources         |num of Containers|Cluster                 |
 +---+------------------------------+---------------------+-----------------------+-----------------+------------------------+
@@ -102,7 +90,6 @@ scDebugger>memoryUsed
 |9  |application_1478683272833_2328|memory:45056,vCores:1|memory:768000,vCores:19|numContainers=19 |memory:768000,vCores:160|
 |10 |application_1478683272833_2328|memory:45056,vCores:1|memory:768000,vCores:19|numContainers=19 |memory:768000,vCores:160|
 +---+------------------------------+---------------------+-----------------------+-----------------+------------------------+
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 scDebugger>jobMetrics
 ============== Job Metrics ==============
 Usage:
@@ -113,14 +100,11 @@ Usage:
 5. Exit
 =========================================
 Enter an option listed above to view specified metrics : 1
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 +------------+------------------------------+-----+-------------------+---------------------------------+
 |App Name    |App ID                        |User |Submission Time    |Completion Time    |Duration(min)|
 +------------+------------------------------+-----+-------------------+-------------------+-------------+
 |sparkProject|application_1493795227502_5174|abc  |2017-09-13 13:24:36|2017-09-13 13:29:05|4.49         |
 +------------+------------------------------+-----+-------------------+-------------------+-------------+
-
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 ============== Job Metrics ==============
 Usage:
 1. Application
@@ -140,19 +124,14 @@ Usage:
 =========================================
 Enter an option listed above to view specified metrics : 2
 Enter any Job ID listed below to view specific Job metrics or enter "ALL" to view all the jobs :
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Job IDs : 0,1
 Enter an option or type "q" to quit Job metrics :0
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 +------+-------------------+-------------------+-------------+---------+------------+
 |Job ID|Submission Time    |Completion Time    |Duration(min)|Stage IDs|Job Status  |
 +------+-------------------+-------------------+-------------+---------+------------+
 |0     |2017-09-13 13:24:42|2017-09-13 13:29:05|4.38         |[0, 1]   |JobSucceeded|
 +------+-------------------+-------------------+-------------+---------+------------+
-
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 Enter any Job ID listed below to view specific Job metrics or enter "ALL" to view all the jobs :
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Job IDs : 0,1
 Enter an option or type "q" to quit Job metrics :ALL
 +------+-------------------+-------------------+-------------+---------+------------+
@@ -161,10 +140,7 @@ Enter an option or type "q" to quit Job metrics :ALL
 |0     |2017-09-13 13:24:42|2017-09-13 13:29:05|4.38         |[0, 1]   |JobSucceeded|
 |1     |2017-09-13 13:29:05|2017-09-13 13:29:05|0.0          |[2]      |JobSucceeded|
 +------+-------------------+-------------------+-------------+---------+------------+
-
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 Enter any Job ID listed below to view specific Job metrics or enter "ALL" to view all the jobs :
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Job IDs : 0,1
 Enter an option or type "q" to quit Job metrics :q
 
@@ -179,7 +155,6 @@ Usage:
 =========================================
 Enter an option listed above to view specified metrics : 3
 Enter any stage ID listed below to view specific stage metrics or enter "ALL" to view all the stages :
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Stage IDs : 0,1,2
 Enter an option or type "q" to quit stage metrics :2
 ====================================== Metrics for Stage ID: 2 =====================================
@@ -202,7 +177,6 @@ Executor Run Time         : 11
 
 ======================================================================================================
 Enter any stage ID listed below to view specific stage metrics or enter "ALL" to view all the stages :
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Stage IDs : 0,1,2
 Enter an option or type "q" to quit stage metrics :ALL
 ======================================== Metrics for all Stages ======================================
@@ -259,7 +233,6 @@ Executor Run Time         : 11
 
 =====================================================================================================
 Enter any stage ID listed below to view specific stage metrics or enter "ALL" to view all the stages :
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 Stage IDs : 0,1,2
 Enter an option or type "q" to quit stage metrics :q
 =================== Ending Stage Metrics ===================
@@ -273,7 +246,6 @@ Usage:
 =========================================
 Enter an option listed above to view specified metrics : 4
 Select a task metric listed below to view specific metrics or enter "ALL" to view all the task metrics :
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 1. Executor ID
 2. Host
 3. Attempt
@@ -303,7 +275,6 @@ Select a task metric listed below to view specific metrics or enter "ALL" to vie
 27. Task Type
 28. Task Status
 Enter an option or type "q" to quit task metrics :4
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 +-------+-------------+
 |Task ID|Locality     |
 +-------+-------------+
@@ -319,10 +290,7 @@ Enter an option or type "q" to quit task metrics :4
 |9      |NODE_LOCAL   |
 |10     |NODE_LOCAL   |
 +-------+-------------+
-
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 Select a task metric listed below to view specific metrics or enter "ALL" to view all the task metrics :
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 1. Executor ID
 2. Host
 3. Attempt
@@ -352,7 +320,6 @@ Select a task metric listed below to view specific metrics or enter "ALL" to vie
 27. Task Type
 28. Task Status
 Enter an option or type "q" to quit task metrics :12
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 +-------+------------+
 |Task ID|Records Read|
 +-------+------------+
@@ -368,10 +335,7 @@ Enter an option or type "q" to quit task metrics :12
 |9      |1155912     |
 |10     |1167340     |
 +-------+------------+
-
-<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
 Select a task metric listed below to view specific metrics or enter "ALL" to view all the task metrics :
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 1. Executor ID
 2. Host
 3. Attempt
