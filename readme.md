@@ -388,6 +388,7 @@ Select a task metric listed below to view specific metrics or enter "ALL" to vie
 26. Speculative
 27. Task Type
 28. Task Status
+
 Enter an option or type "q" to quit task metrics :4
 
 Task ID|Locality     
@@ -486,12 +487,15 @@ Enter an option or type "q" to quit task metrics :q
 =========Ending Task Metrics============
 
 =======Job Metrics========
+
 Usage:
+
 1. Application
 2. Job
 3. Stage
 4. Task
 5. Exit
+
 ===============================
 
 Enter an option listed above to view specified metrics : 5
