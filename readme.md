@@ -122,7 +122,7 @@ Usage:
 4. Task
 5. Exit
 
-======================================
+=====================================
 
 Enter an option listed above to view specified metrics : q
 
@@ -135,7 +135,7 @@ Usage:
 4. Task
 5. Exit
 
-=====================================
+====================================
 
 Enter an option listed above to view specified metrics : 2
 
@@ -178,7 +178,7 @@ Usage:
 4. Task
 5. Exit
 
-=========================================
+=====================================
 
 Enter an option listed above to view specified metrics : 3
 
@@ -188,7 +188,7 @@ Stage IDs : 0,1,2
 
 Enter an option or type "q" to quit stage metrics :2
 
-==========Metrics for Stage ID: 2============
+============ Metrics for Stage ID: 2 ==============
 
 Stage ID                  : 2
 
@@ -223,7 +223,7 @@ Total Records Read        : null
 Executor Run Time         : 11
 
 
-=======================================================
+===========================================================
 
 Enter any stage ID listed below to view specific stage metrics or enter "ALL" to view all the stages :
 
@@ -231,7 +231,7 @@ Stage IDs : 0,1,2
 
 Enter an option or type "q" to quit stage metrics :ALL
 
-=========== Metrics for all Stages ===========
+============= Metrics for all Stages =============
 
 Stage ID                  : 0
 
@@ -265,7 +265,7 @@ Total Records Read        : null
 
 Executor Run Time         : 1016486
 
-
+======================================================
 
 
 Stage ID                  : 1
@@ -300,7 +300,7 @@ Total Records Read        : 78
 
 Executor Run Time         : 71
 
-
+======================================================
 
 Stage ID                  : 2
 
@@ -335,7 +335,7 @@ Total Records Read        : null
 Executor Run Time         : 11
 
 
-==================================================
+======================================================
 
 Enter any stage ID listed below to view specific stage metrics or enter "ALL" to view all the stages :
 
@@ -343,10 +343,10 @@ Stage IDs : 0,1,2
 
 Enter an option or type "q" to quit stage metrics :q
 
-========Ending Stage Metrics==========
 
-==========Job Metrics ==========
+=================== Ending Stage Metrics ===================
 
+============== Job Metrics ==============
 Usage:
 
 1. Application
@@ -355,7 +355,7 @@ Usage:
 4. Task
 5. Exit
 
-=================================
+=====================================
 
 Enter an option listed above to view specified metrics : 4
 
@@ -485,9 +485,9 @@ Select a task metric listed below to view specific metrics or enter "ALL" to vie
 
 Enter an option or type "q" to quit task metrics :q
 
-=========Ending Task Metrics============
+=================== Ending Task Metrics ===================
 
-=======Job Metrics========
+============== Job Metrics ==============
 
 Usage:
 
@@ -497,15 +497,15 @@ Usage:
 4. Task
 5. Exit
 
-===============================
+=====================================
 
 Enter an option listed above to view specified metrics : 5
 
-========Ending Job Metrics=========
+=================== Ending Job Metrics ===================
 
 scDebugger>help
 
-===========================
+=====================================
 
 Usage:
 1. allApplicationIds
@@ -520,8 +520,8 @@ Usage:
 3. memoryUsed
 4. exit
 
-=============================
+=====================================
 
 scDebugger>exit
 
-=========Ending session ===========
+=========== Ending session ===========
