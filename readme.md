@@ -1,3 +1,8 @@
+
+![alt text](https://github.com/VijayaChander/SparkLogDebugger/blob/master/sd.JPG)
+
+
+
 scDebugger>help
 =========================================
 Usage:
@@ -175,98 +180,184 @@ Usage:
 =========================================
 
 Enter an option listed above to view specified metrics : 3
+
 Enter any stage ID listed below to view specific stage metrics or enter "ALL" to view all the stages :
+
 Stage IDs : 0,1,2
+
 Enter an option or type "q" to quit stage metrics :2
+
 ====================================== Metrics for Stage ID: 2 =====================================
+
 Stage ID                  : 2
+
 Stage Name                : show at SparkHive.scala:28
+
 Stage Attempt ID          : 0
+
 Number of Tasks           : 1
+
 Submission Time           : 2017-09-13 13:29:05
+
 Completion Time           : 2017-09-13 13:29:05
+
 Duration(min)             : 0.0
+
 JVM GC Time               : 0
+
 Shuffle Write Time        : null
+
 Result Serialization Time : 6
+
 Shuffle Bytes Written     : null
+
 Result Size               : 24325
+
 Shuffle Records Written   : null
+
 Executor Deserialize Time : 12
+
 Total Records Read        : null
+
 Executor Run Time         : 11
+
 
 ======================================================================================================
+
 Enter any stage ID listed below to view specific stage metrics or enter "ALL" to view all the stages :
+
 Stage IDs : 0,1,2
+
 Enter an option or type "q" to quit stage metrics :ALL
+
 ======================================== Metrics for all Stages ======================================
+
 Stage ID                  : 0
+
 Stage Name                : count at SparkHive.scala:27
+
 Stage Attempt ID          : 0
+
 Number of Tasks           : 78
+
 Submission Time           : 2017-09-13 13:24:42
+
 Completion Time           : 2017-09-13 13:29:05
+
 Duration(min)             : 4.38
+
 JVM GC Time               : 13699
+
 Shuffle Write Time        : 177374813
+
 Result Serialization Time : 8
+
 Shuffle Bytes Written     : 3276
+
 Result Size               : 9100284
+
 Shuffle Records Written   : 78
+
 Executor Deserialize Time : 4078
+
 Total Records Read        : null
+
 Executor Run Time         : 1016486
 
+
+
 Stage ID                  : 1
+
 Stage Name                : count at SparkHive.scala:27
+
 Stage Attempt ID          : 0
+
 Number of Tasks           : 1
+
 Submission Time           : 2017-09-13 13:29:05
+
 Completion Time           : 2017-09-13 13:29:05
+
 Duration(min)             : 0.0
+
 JVM GC Time               : 0
+
 Shuffle Write Time        : null
+
 Result Serialization Time : 8
+
 Shuffle Bytes Written     : null
+
 Result Size               : 1951
+
 Shuffle Records Written   : null
+
 Executor Deserialize Time : 21
+
 Total Records Read        : 78
+
 Executor Run Time         : 71
 
+
 Stage ID                  : 2
+
 Stage Name                : show at SparkHive.scala:28
+
 Stage Attempt ID          : 0
+
 Number of Tasks           : 1
+
 Submission Time           : 2017-09-13 13:29:05
+
 Completion Time           : 2017-09-13 13:29:05
+
 Duration(min)             : 0.0
+
 JVM GC Time               : 0
+
 Shuffle Write Time        : null
+
 Result Serialization Time : 6
+
 Shuffle Bytes Written     : null
+
 Result Size               : 24325
+
 Shuffle Records Written   : null
+
 Executor Deserialize Time : 12
+
 Total Records Read        : null
+
 Executor Run Time         : 11
 
+
 =====================================================================================================
+
 Enter any stage ID listed below to view specific stage metrics or enter "ALL" to view all the stages :
+
 Stage IDs : 0,1,2
+
 Enter an option or type "q" to quit stage metrics :q
+
 =================== Ending Stage Metrics ===================
+
 ============== Job Metrics ==============
+
 Usage:
+
 1. Application
 2. Job
 3. Stage
 4. Task
 5. Exit
+
 =========================================
+
 Enter an option listed above to view specified metrics : 4
+
 Select a task metric listed below to view specific metrics or enter "ALL" to view all the task metrics :
+
 1. Executor ID
 2. Host
 3. Attempt
@@ -296,22 +387,23 @@ Select a task metric listed below to view specific metrics or enter "ALL" to vie
 27. Task Type
 28. Task Status
 Enter an option or type "q" to quit task metrics :4
-+-------+-------------+
-|Task ID|Locality     |
-+-------+-------------+
-|0      |NODE_LOCAL   |
-|1      |NODE_LOCAL   |
-|2      |NODE_LOCAL   |
-|3      |NODE_LOCAL   |
-|4      |NODE_LOCAL   |
-|5      |NODE_LOCAL   |
-|6      |NODE_LOCAL   |
-|7      |NODE_LOCAL   |
-|8      |NODE_LOCAL   |
-|9      |NODE_LOCAL   |
-|10     |NODE_LOCAL   |
-+-------+-------------+
+
+Task ID|Locality     
+-------|-------------
+0      |NODE_LOCAL   
+1      |NODE_LOCAL   
+2      |NODE_LOCAL   
+3      |NODE_LOCAL   
+4      |NODE_LOCAL   
+5      |NODE_LOCAL   
+6      |NODE_LOCAL   
+7      |NODE_LOCAL   
+8      |NODE_LOCAL   
+9      |NODE_LOCAL   
+10     |NODE_LOCAL   
+
 Select a task metric listed below to view specific metrics or enter "ALL" to view all the task metrics :
+
 1. Executor ID
 2. Host
 3. Attempt
@@ -341,21 +433,21 @@ Select a task metric listed below to view specific metrics or enter "ALL" to vie
 27. Task Type
 28. Task Status
 Enter an option or type "q" to quit task metrics :12
-+-------+------------+
-|Task ID|Records Read|
-+-------+------------+
-|0      |1141365     |
-|1      |1148933     |
-|2      |1128441     |
-|3      |1126880     |
-|4      |1138937     |
-|5      |1135880     |
-|6      |1151384     |
-|7      |1134983     |
-|8      |1152070     |
-|9      |1155912     |
-|10     |1167340     |
-+-------+------------+
+
+Task ID|Records Read
+-------|-------------
+0      |1141365     
+1      |1148933     
+2      |1128441     
+3      |1126880     
+4      |1138937     
+5      |1135880     
+6      |1151384     
+7      |1134983     
+8      |1152070     
+9      |1155912     
+10     |1167340     
+
 Select a task metric listed below to view specific metrics or enter "ALL" to view all the task metrics :
 1. Executor ID
 2. Host
@@ -385,6 +477,7 @@ Select a task metric listed below to view specific metrics or enter "ALL" to vie
 26. Speculative
 27. Task Type
 28. Task Status
+
 Enter an option or type "q" to quit task metrics :q
 =================== Ending Task Metrics ===================
 ============== Job Metrics ==============
@@ -402,12 +495,13 @@ scDebugger>help
 Usage:
 1. allApplicationIds
 2. setApplicationId
+
          1. search "term"
          2. hosts
          3. firstException
          4. executors-hosts-partitions
          5. disk-memory-usage
-         6. jobMetrics
+         6. jobMetrics             
 3. memoryUsed
 4. exit
 =========================================
