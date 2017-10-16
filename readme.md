@@ -2,9 +2,10 @@
 ![alt text](https://github.com/VijayaChander/SparkLogDebugger/blob/master/sd.JPG)
 
 
-
 scDebugger>help
+
 =========================================
+
 Usage:
 1. allApplicationIds
 2. setApplicationId
