@@ -95,6 +95,8 @@ SNo|App Id                        |Resources            |Used Resources         
 9  |application_1478683272833_2328|memory:45056,vCores:1|memory:768000,vCores:19|numContainers=19 |memory:768000,vCores:160
 10 |application_1478683272833_2328|memory:45056,vCores:1|memory:768000,vCores:19|numContainers=19 |memory:768000,vCores:160
 
+scDebugger>jobMetrics
+
 ============== Job Metrics ==============
 
 Usage:
@@ -505,7 +507,7 @@ Enter an option listed above to view specified metrics : 5
 
 scDebugger>help
 
-=====================================
+======================================
 
 Usage:
 1. allApplicationIds
@@ -520,7 +522,7 @@ Usage:
 3. memoryUsed
 4. exit
 
-=====================================
+======================================
 
 scDebugger>exit
 
