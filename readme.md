@@ -514,4 +514,4 @@ Usage:
 
 scDebugger>exit
 
-=========== Ending session ===========
+=================== Ending session ===================
