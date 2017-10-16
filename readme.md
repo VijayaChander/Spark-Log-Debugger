@@ -126,19 +126,6 @@ Usage:
 
 ====================================
 
-Enter an option listed above to view specified metrics : q
-
-============== Job Metrics ==============
-
-Usage:
-1. Application
-2. Job
-3. Stage
-4. Task
-5. Exit
-
-====================================
-
 Enter an option listed above to view specified metrics : 2
 
 Enter any Job ID listed below to view specific Job metrics or enter "ALL" to view all the jobs :
@@ -438,6 +425,7 @@ Select a task metric listed below to view specific metrics or enter "ALL" to vie
 26. Speculative
 27. Task Type
 28. Task Status
+
 Enter an option or type "q" to quit task metrics :12
 
 Task ID|Records Read
