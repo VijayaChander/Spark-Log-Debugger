@@ -105,7 +105,7 @@ Usage:
 4. Task
 5. Exit
 
-=========================================
+======================================
 
 Enter an option listed above to view specified metrics : 1
 
@@ -122,7 +122,7 @@ Usage:
 4. Task
 5. Exit
 
-=========================================
+======================================
 
 Enter an option listed above to view specified metrics : q
 
@@ -135,7 +135,7 @@ Usage:
 4. Task
 5. Exit
 
-========================================
+=====================================
 
 Enter an option listed above to view specified metrics : 2
 
