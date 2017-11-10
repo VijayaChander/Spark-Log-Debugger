@@ -35,8 +35,15 @@ object SetApplicationId extends ICommand{
 			}
 			args
 		}	catch {
-		case ex: Throwable =>  LOGGER.error("Spark Debugger error", ex) // TODO: handle error
-				args
+		case ex: Throwable =>  {
+  	      println("some error occurred")
+  	      LOGGER.error("Spark Debugger error", ex) // TODO: handle error
+  	      args
+  	    }
+  	     case ex: AnalysisException => {
+  	       println("No metrics found in the log")
+  	       args
+  	     }		
 		}
 }
 
