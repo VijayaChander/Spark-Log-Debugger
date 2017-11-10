@@ -44,7 +44,11 @@ object MemoryUsed extends ICommand{
   			memoryDf.withColumn("SNo", org.apache.spark.sql.functions.rowNumber over Window.orderBy("App Id")).select("SNo","App Id","Resources","Used Resources","num of Containers","Cluster").show(memoryDf.count().toInt,false)
   			println("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<")
       }catch {
-  	    case ex: Throwable =>  LOGGER.error("Spark Debugger error", ex) // TODO: handle error
+  	    case ex: Throwable =>  {
+  	      println("some error occurred")
+  	      LOGGER.error("Spark Debugger error", ex) // TODO: handle error
+  	    }
+  	     case ex: AnalysisException => println("No metrics found in the log")
   	}
    }
       
