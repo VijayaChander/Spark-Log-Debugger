@@ -38,7 +38,11 @@ object Hosts extends ICommand{
       println("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<")
       
   	}catch {
-  	  case ex: Throwable =>  LOGGER.error("Spark Debugger error", ex) // TODO: handle error
+  	  case ex: Throwable =>  {
+  	      println("some error occurred")
+  	      LOGGER.error("Spark Debugger error", ex) // TODO: handle error
+  	    }
+  	     case ex: AnalysisException => println("No metrics found in the log")
   	}
   }
 }
