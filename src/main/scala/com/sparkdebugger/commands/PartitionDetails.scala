@@ -46,7 +46,11 @@ object PartitionDetails extends ICommand{
     searchDF.withColumn("SNo", org.apache.spark.sql.functions.rowNumber over Window.orderBy("Stage Id")).select("SNo","Executor Id","Host","Stage Id", "Partition Id").show(searchDF.count().toInt,false)
     println("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<")
    }catch {
-  	   case ex: Throwable =>  LOGGER.error("Spark Debugger error", ex) // TODO: handle error
+  	   case ex: Throwable =>  {
+  	      println("some error occurred")
+  	      LOGGER.error("Spark Debugger error", ex) // TODO: handle error
+  	    }
+  	     case ex: AnalysisException => println("No metrics found in the log")
   	}
   }
 }
