@@ -42,7 +42,5 @@ object ApplicationMetrics extends ICommand {
   	    }
   	     case ex: AnalysisException => println("No metrics found in the log")
 					}
-					}
 			}  
 }
-
