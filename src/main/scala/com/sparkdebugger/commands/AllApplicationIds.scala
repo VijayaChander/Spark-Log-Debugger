@@ -51,8 +51,15 @@ object AllApplicationIds extends ICommand{
 			  //res.collect().foreach(f=>f.toString()).toString()
 				res.select("ApplicationID").collect().map(_.getString(0)).mkString(" ")
      }catch {
-  	    case ex: Throwable =>  LOGGER.error("Spark Debugger error", ex) // TODO: handle error
-  	    ex.printStackTrace().toString()
+  	    case ex: Throwable =>  {
+  	      println("some error occurred")
+  	      LOGGER.error("Spark Debugger error", ex) // TODO: handle error
+  	      ex.printStackTrace().toString()
+  	    }
+  	     case ex: AnalysisException => {
+  	       println("No metrics found in the log")
+  	       ex.printStackTrace().toString()
+  	     }
   	}
   }
 }
