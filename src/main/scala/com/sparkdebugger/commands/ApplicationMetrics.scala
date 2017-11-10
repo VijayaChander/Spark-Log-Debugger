@@ -36,7 +36,12 @@ object ApplicationMetrics extends ICommand {
 							JMHelp.execute("help")
 								
 					}catch {
-					case ex: Throwable =>  LOGGER.error("Spark Debugger error", ex) // TODO: handle error
+					case ex: Throwable =>  {
+  	      println("some error occurred")
+  	      LOGGER.error("Spark Debugger error", ex) // TODO: handle error
+  	    }
+  	     case ex: AnalysisException => println("No metrics found in the log")
+					}
 					}
 			}  
 }
