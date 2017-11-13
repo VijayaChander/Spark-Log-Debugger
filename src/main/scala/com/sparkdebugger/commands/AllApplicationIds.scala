@@ -52,7 +52,7 @@ object AllApplicationIds extends ICommand{
 				res.select("ApplicationID").collect().map(_.getString(0)).mkString(" ")
      }catch {
   	    case ex: Throwable =>  {
-  	      println("some error occurred")
+  	      println("some error occurred" + ex)
   	      LOGGER.error("Spark Debugger error", ex) // TODO: handle error
   	      ex.printStackTrace().toString()
   	    }
